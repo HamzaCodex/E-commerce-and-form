@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("Backrgound.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff; /* Use #fff instead of rgb(255, 255, 255) */
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+/* Typography Styles */
+h1, p {
+    text-align: center;
+}
+
+/* Form Element Styles */
+
+button{
+
+    padding: 10px;
+    margin:9px;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding doesn't affect element width */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    padding: 10px;
+    margin:5px;
+    margin-top: 0px;
+    font-size: 16px;
+    width: 80%; /* Added width to form elements */
+    box-sizing: border-box; /* Ensure padding doesn't affect element width */
+    display: inline-block;
+    margin-bottom: 9px;
+}
+label{
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-left: 40px;
+    padding: 0px;
+    width: 20%;
+    display: flex;
+    justify-content: left;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: #fff; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: auto; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.hidden {
+    display: none;
+}

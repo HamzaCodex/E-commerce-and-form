@@ -1,0 +1,123 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D9D4;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the page content */
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background-color: #124E66;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.header header {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #2E3944;
+    color: white;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Product page layout */
+.productpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+}
+
+.productpage > div {
+    width: 200px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 30px;
+    border: solid 0.5px #ccc;
+    text-align: center; /* Center content inside the card */
+}
+
+/* Ensure images are responsive */
+.productpage img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 15px; /* Add spacing between the image and the text */
+}
+
+/* Center text in product cards */
+.productpage h1, .productpage p {
+    margin: 10px 0;
+}
+
+/* Shopping cart layout */
+.shoppingcart {
+    background-color: #fff;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    background-color: #124E66;
+    color: white;
+    width: 90px;
+    height: 26px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0f3b52;
+}
+
+/* Footer */
+footer {
+    background-color: #124E66;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1000;
+}
